@@ -28,7 +28,7 @@ class Photo extends Component {
           <p>{post.caption}</p>
           <div className="control-buttons">
             <button onClick={increment.bind(null, index)} className="likes">
-              &hearts; {post.likes}
+              &#10084;; {post.likes}
             </button>
             <Link to={`/view/${post.code}`} className="button">
               <span className="comment-count">
